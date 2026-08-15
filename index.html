@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-Means Playground | ¡Interactúa con la IA!</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>👾 K-Means Playground 👾</h1>
+        <p>Aprende de forma visual y divertida cómo funciona el aprendizaje no supervisado. ¡Dibuja tus propios datos y mira a la IA agruparlos en vivo!</p>
+    </header>
+
+    <div class="container">
+        <!-- Contenedor del Canvas -->
+        <div class="canvas-container">
+            <canvas id="playground" width="650" height="450"></canvas>
+            <div class="canvas-footer">
+                <span>💡 Haz clic en el lienzo negro para interactuar</span>
+                <span id="coordinates">X: 0, Y: 0</span>
+            </div>
+        </div>
+
+        <!-- Barra Lateral de Controles -->
+        <div class="sidebar">
+            
+            <!-- Sección de Modo de Clic -->
+            <div class="section">
+                <h3>🖱️ Modo de Clic</h3>
+                <div class="btn-group">
+                    <button id="mode-points" class="active">✍️ Puntos</button>
+                    <button id="mode-centroids">📍 Centroides</button>
+                </div>
+                <div class="instruction-box" id="instructions">
+                    Modo Puntos activo: Haz clic en el lienzo negro para colocar tus datos de prueba.
+                </div>
+            </div>
+
+            <!-- Generadores Rápidos -->
+            <div class="section">
+                <h3>🎲 Generar Aleatorios</h3>
+                <div class="btn-group">
+                    <button id="btn-gen-points">🎲 Puntos</button>
+                    <button id="btn-gen-centroids">🎲 Centroides</button>
+                </div>
+            </div>
+
+            <!-- Controles de la Simulación -->
+            <div class="section">
+                <h3>⚙️ Algoritmo</h3>
+                <div class="btn-group-full">
+                    <button id="btn-step" class="btn-primary">👟 Siguiente Paso</button>
+                    <button id="btn-auto">⚡ Ejecución Automática</button>
+                    <button id="btn-reset" class="btn-danger">🗑️ Limpiar Todo</button>
+                </div>
+            </div>
+
+            <!-- Integración con Python -->
+            <div class="section">
+                <h3>📂 Integración con Python</h3>
+                <div class="btn-group-full">
+                    <button id="btn-export" class="btn-success">⬇️ Exportar CSV para Python</button>
+                </div>
+            </div>
+
+            <!-- Estadísticas en Tiempo Real -->
+            <div class="section">
+                <h3>📊 Métricas del Modelo</h3>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span>Puntos totales (N):</span>
+                        <span class="stat-val" id="stat-points">0</span>
+                    </div>
+                    <div class="stat-item">
+                        <span>Grupos (K):</span>
+                        <span class="stat-val" id="stat-k">0</span>
+                    </div>
+                    <div class="stat-item">
+                        <span>Fase Actual:</span>
+                        <span class="stat-val" id="stat-phase">Esperando Datos</span>
+                    </div>
+                    <div class="stat-item" title="Suma de Errores al Cuadrado (SSE): Mide la dispersión dentro de los grupos. ¡El objetivo de K-medias es minimizar este valor!">
+                        <span>Dispersión (SSE):</span>
+                        <span class="stat-val" id="stat-sse">0.00</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./src/script.js" defer></script>
+</body>
+</html>
