@@ -4,9 +4,26 @@ Este repositorio contiene un simulador visual e interactivo diseñado para enten
 
 En lugar de leer fórmulas abstractas, este programa te permite dibujar tus propios datos en una pantalla, colocar "imanes" (centroides) de colores y ver paso a paso cómo la computadora los organiza en tiempo real.
 
-**⚡⚡ https://josarta.github.io/Kmeans_PlayGround/
+---
+
+## 🌐 Simulador Web en Vivo
+Se desplego una aplicación web interactiva donde puedes dibujar tus propios datos y ver cómo funciona el algoritmo de K-medias paso a paso.
+
+👉 **[Entrar al K-Means Playground en Vivo](https://josarta.github.io/Kmeans_PlayGround/)**
 
 ---
+
+## 🧪 2. Análisis con Python y Scikit-Learn
+Para complementar la experiencia visual,  dispongo  un cuaderno de Jupyter que toma los datos que exportas de la web y los analiza utilizando librerías científicas de Python.
+
+
+### ¿Cómo ver y ejecutar el análisis?
+* **Vista Rápida (Estática):** Puedes ver el código y las gráficas generadas haciendo clic directamente en: [Ver analisis_kmeans.ipynb](notebooks/Analisis_kmeans.ipynb).
+* **Ejecutar en la Nube (Interactivo):** Haz clic en el siguiente botón para abrir el código en Google Colab, donde podrás correr el modelo en tiempo real e interactuar con el simulador embebido:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/josarta/Kmeans_PlayGround/blob/main/analisis_kmeans.ipynb)
+
+
 
 ## 🎮 ¿Cómo Funciona el Juego?
 
