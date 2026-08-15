@@ -4,6 +4,8 @@ Este repositorio contiene un simulador visual e interactivo diseñado para enten
 
 En lugar de leer fórmulas abstractas, este programa te permite dibujar tus propios datos en una pantalla, colocar "imanes" (centroides) de colores y ver paso a paso cómo la computadora los organiza en tiempo real.
 
+**⚡⚡ https://josarta.github.io/Kmeans_PlayGround/
+
 ---
 
 ## 🎮 ¿Cómo Funciona el Juego?
