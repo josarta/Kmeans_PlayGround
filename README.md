@@ -9,7 +9,7 @@ En lugar de leer fórmulas abstractas, este programa te permite dibujar tus prop
 ## 🌐 Simulador Web en Vivo
 Se desplego una aplicación web interactiva donde puedes dibujar tus propios datos y ver cómo funciona el algoritmo de K-medias paso a paso.
 
-👉 **[Entrar al K-Means Playground en Vivo](https://josarta.github.io/Kmeans_PlayGround/)**
+👉 <a href="https://josarta.github.io/Kmeans_PlayGround/" target="_blank" rel="noopener noreferrer"><strong>Entrar al K-Means Playground en Vivo</strong></a>
 
 ---
 
@@ -18,10 +18,13 @@ Para complementar la experiencia visual,  dispongo  un cuaderno de Jupyter que t
 
 
 ### ¿Cómo ver y ejecutar el análisis?
-* **Vista Rápida (Estática):** Puedes ver el código y las gráficas generadas haciendo clic directamente en: [Ver analisis_kmeans.ipynb](notebooks/Analisis_kmeans.ipynb).
-* **Ejecutar en la Nube (Interactivo):** Haz clic en el siguiente botón para abrir el código en Google Colab, donde podrás correr el modelo en tiempo real e interactuar con el simulador embebido:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/josarta/Kmeans_PlayGround/blob/main/analisis_kmeans.ipynb)
+* <strong>Vista Rápida (Estática):</strong> Puedes ver el código y las gráficas generadas haciendo clic directamente en: <a href="notebooks/Analisis_kmeans.ipynb" target="_blank" rel="noopener noreferrer">Ver analisis_kmeans.ipynb</a>.
+* <strong>Ejecutar en la Nube (Interactivo):</strong> Haz clic en el siguiente botón para abrir el código en Google Colab, donde podrás correr el modelo en tiempo real e interactuar con el simulador embebido:
+
+<a href="https://colab.research.google.com/github/josarta/Kmeans_PlayGround/blob/main/analisis_kmeans.ipynb" target="_blank" rel="noopener noreferrer">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">
+</a>
 
 
 
